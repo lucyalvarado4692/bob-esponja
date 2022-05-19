@@ -1,0 +1,117 @@
+h1{
+color:blue;	
+}
+
+body{
+	display: flex;
+	width: 50vw;
+	margin: auto;
+	flex-direction: column;
+}
+ojos{
+	display: flex; 
+	position: absolute;
+	align-self: center;
+	align-items: center;
+	margin-top: 150px;
+
+}
+.main_body{
+	display: flex;
+	border: 5px solid black;
+	width: 300px;
+	height: 300px;
+	background-color: #F5EE31;
+	margin: auto;
+	flex-direction: column;
+}
+.orbita_der{
+	border: 5px solid black;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	border-radius: 100px;
+	margin: auto;
+	display: flex;
+	align-self: center;
+	align-items: flex-end;
+	margin-left: px;
+	margin-right: -20px;
+
+}
+.orbita_izq{
+	border: 5px solid black;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	border-radius: 100px;
+	margin: auto;
+	display: flex;
+  	align-self: center;
+  	align-items: flex-start;
+	margin-right: ;
+	margin-left: ;
+}
+.retina_der{
+	border: 5px solid black;
+	width: 45px;
+	height: 45px;
+	background-color: blue;
+	border-radius: 45px;
+	align-self: center;
+	float: left;
+	margin: auto;
+}
+.retina_izq{
+	border: 5px solid black;
+	width: 45px;
+	height: 45px;
+	background-color: blue;
+	border-radius: 45px;
+	align-self: center;
+	float: right;
+	margin: auto;
+	
+}
+.pupila_der{
+	border: 5px solid black;
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 20px;
+	align-items: center;
+	margin: auto;
+	margin-top: 8px;
+}
+.pupila_izq{
+	border: 5px solid black;
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 20px;
+	align-items: center;
+	margin: auto;
+	margin-top: 8px;
+}
+.camisa{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	margin: auto;
+	border: 5px solid black;
+	width: 300px;
+	height: 50px;
+	background-color: white;
+}
+.pantalon{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	margin: auto;
+	border: 5px solid black;
+	width: 300px;
+	height: 50px;
+	background-color: brown;
+}
+
+	
