@@ -1,181 +1,281 @@
-h1{
-color:blue;	
+h1 {
+  color: blue;
 }
 
-body{
-	display: flex;
-	width: 50vw;
-	margin: auto;
-	flex-direction: column;
+body {
+  display: flex;
+  width: 50vw;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
-ojos{
-	display: flex; 
-	position: absolute;
-	align-self: center;
-	align-items: center;
-	margin-top: 130px;
+ojos {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-top: 4vw;
 }
-.main_body{
-	display: flex;
-	border: 5px solid black;
-	width: 300px;
-	height: 300px;
-	background-color: #F5EE31;
-	margin: auto;
-	flex-direction: column;
+.main_body {
+  display: flex;
+  border: 5px solid black;
+  width: 40vh;
+  height: 40vh;
+  background-color: #f5ee31;
+  margin: auto;
+  flex-direction: column;
 }
-.orbita_der{
-	border: 5px solid black;
-	width: 100px;
-	height: 100px;
-	background-color: white;
-	border-radius: 100px;
-	margin: auto;
-	display: flex;
-	align-self: center;
-	align-items: flex-end;
-	margin-left: px;
-	margin-right: -15px;
+.orbita_der {
+  border: 5px solid black;
+  width: 13vh;
+  height: 13vh;
+  background-color: white;
+  border-radius: 100px;
+  margin: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-end;
+  margin-left: px;
+  margin-right: -15px;
+}
+.orbita_izq {
+  border: 5px solid black;
+  width: 13vh;
+  height: 13vh;
+  background-color: white;
+  border-radius: 100px;
+  margin: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+}
+.retina_der {
+  border: 3px solid black;
+  width: 6vh;
+  height: 6vh;
+  background-color: skyblue;
+  border-radius: 45px;
+  align-self: center;
+  float: left;
+  margin: auto;
+  display: flex;
+}
+.retina_izq {
+  border: 3px solid black;
+  width: 6vh;
+  height: 6vh;
+  background-color: skyblue;
+  border-radius: 45px;
+  align-self: center;
+  float: right;
+  margin: auto;
+  display: flex;
+}
+.pupila_der {
+  border: 5px solid black;
+  width: 2.5vh;
+  height: 2.5vh;
+  background-color: black;
+  border-radius: 18px;
+  align-self: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+}
+.pupila_izq {
+  border: 5px solid black;
+  width: 2.5vh;
+  height: 2.5vh;
+  background-color: black;
+  border-radius: 18px;
+  align-items: center;
+  align-self: center;
+  margin: auto;
+}
+.pestanas {
+  position: relative;
+  bottom: 1vw;
+  left: 2vw;
+}
 
+.pestana {
+  width: 15px;
+  height: 5px;
+  background: #000;
+  transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  margin-right: 10px;
+  display: inline-block;
 }
-.orbita_izq{
-	border: 5px solid black;
-	width: 100px;
-	height: 100px;
-	background-color: white;
-	border-radius: 100px;
-	margin: auto;
-	display: flex;
-  	align-self: center;
-  	align-items: flex-start;
-	margin-right: ;
-	margin-left: ;
-}
-.retina_der{
-	border: 3px solid black;
-	width: 45px;
-	height: 45px;
-	background-color: skyblue;
-	border-radius: 45px;
-	align-self: center;
-	float: left;
-	margin: auto;
-}
-.retina_izq{
-	border: 3px solid black;
-	width: 45px;
-	height: 45px;
-	background-color: skyblue;
-	border-radius: 45px;
-	align-self: center;
-	float: right;
-	margin: auto;
-	
-}
-.pupila_der{
-	border: 5px solid black;
-	width: 18px;
-	height: 18px;
-	background-color: black;
-	border-radius: 18px;
-	align-items: center;
-	margin: auto;
-	margin-top: 8px;
-}
-.pupila_izq{
-	border: 5px solid black;
-	width: 18px;
-	height: 18px;
-	background-color: black;
-	border-radius: 18px;
-	align-items: center;
-	margin: auto;
-	margin-top: 8px;
-}
-.camisa{
-	display: flex;
-  	align-items: center;
-  	justify-content: center;
-	margin: auto;
-	border: 5px solid black;
-	width: 300px;
-	height: 50px;
-	background-color: white;
-}
-.pantalon{
-	display: flex;
-  	align-items: center;
-  	justify-content: center;
-	margin: auto;
-	border: 5px solid black;
-	width: 300px;
-	height: 50px;
-	background-color: brown;
-}
-.smile{
-	border: 5px solid black;
-	width: 200px;
-	height: 100px;
-	border-radius: 50%;
-	margin: auto;
-	display: flex;
-  	align-self: center;
-  	border-top: none;
-  	position: absolute;
-  	border-right: none;
-  	border-left: none;
-  	align-items: center;
-  	margin-top: 200px;
-}
-.nariz{
-	border: 5px solid black;
-	width: 30px;
-	height: 50px;
-	border-radius: 50%;
-	margin: auto;
-	display: flex;
-  	align-self: center;
-  	border-bottom: none;
-  	position: absolute;
-  	align-items: center;
-  	margin-top: 200px;
-  	background-color: yellow;
-}
-.dientes{
-	display: flex; 
-	position: absolute;
-	align-self: center;
-	align-items: center;
-	margin-top: 130px;
-	margin-left: 70px;	
-}
-.der{
-	background-color: white;
-	border: solid 5px black;
-	width: 20px;
-	height: 20px;
-}
-.izq{
-	background-color: white;
-	border: solid 5px black;
-	width: 20px;
-	height: 20px;
-	
-}
-mejillas{
-	display: flex; 
-	background-color: inherit;
-	border: solid 4px orange;
-	width: 30px;
-	height: 30px;
-	border-radius: 50%;
-	border-bottom: none;
-	position: absolute;
 
+.pestana.primera {
+  position: relative;
+  top: 10px;
+  transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
 }
-.mder{
-	margin: auto;
+
+.pestana.tercera {
+  position: relative;
+  top: 10px;
+  transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
 }
-.mizq{
-	margin: auto;
+
+.smile {
+  border: 5px solid black;
+  width: 32vh;
+  height: 15vh;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: -10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  align-items: center;
+}
+.nariz {
+  border: 5px solid black;
+  width: 3vh;
+  height: 5vh;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  align-self: center;
+  border-bottom: none;
+  align-items: center;
+  margin-top: -2vw;
+  background-color: yellow;
+}
+.dientes {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-bottom: -4.1vw;
+  margin-top: 2vw;
+}
+.der {
+  background-color: white;
+  border: solid 5px black;
+  margin: 0.2vw;
+  width: 2.5vh;
+  height: 2.5vh;
+}
+.izq {
+  margin: 0.2vw;
+  background-color: white;
+  border: solid 5px black;
+  width: 2.5vh;
+  height: 2.5vh;
+}
+.mej {
+  margin-bottom: -4vw;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.mejilla {
+  width: 4vh;
+  height: 2.5vh;
+  background: transparent;
+  border: 3px solid #f1592a;
+  border-bottom: 5px transparent;
+  border-radius: 50% 50% 20% 20%;
+}
+
+.camisa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 5px solid black;
+  width: 40vh;
+  height: 7vh;
+  background-color: white;
+}
+.cuello {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -2vw;
+}
+.solapa {
+  width: 5.5vh;
+  height: 3.5vh;
+  position: relative;
+  background: #fff;
+  border: 5px solid #000;
+  -moz-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+.solapa.izq {
+  -moz-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
+.nudo {
+  width: 4.5vh;
+  height: 4.5vh;
+  background: #f00200;
+  position: relative;
+  border: 5px solid #000;
+  position: relative;
+  z-index: 50;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.pantalon {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  border: 5px solid black;
+  width: 40vh;
+  height: 7vh;
+  background-color: brown;
+}
+.corbata {
+  top: -5.8vw;
+  margin: auto;
+  width: 6.5vh;
+  height: 6.5vh;
+  background: #f00200;
+  border: 5px solid #000;
+  position: relative;
+  z-index: 50;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.agujero {
+  width: 4.5vh;
+  height: 1.5vh;
+  position: relative;
+  top: 20px;
+  background: #000;
 }
